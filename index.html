@@ -1,46 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
-	<link rel="stylesheet" href="style.css">
-	<style>
-	@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
-	</style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
 </head>
+
 <body>
-	<section class="main_div display_flex">
-		<div class="window_div">
-			<div class="title_bar">
-				<div class="title_bar_text">Custom Shows</div>
-				<div class="title-bar-controls">
-					<button aria-label="Maximize" class="common_btn ques_btn" id="question_div" name="question_div">&#63;</button>
-					<button aria-label="Close" class="common_btn close_one_btn" id="close_div" name="close_div">&#10005;</button>
-				</div>
-			</div>
-			<div class="window_body">
-				<div class="upper_content font_siz">
-					<div class="upper_left font_fam">
-						<p class="para">C<span class="underline">u</span class="underline">stom shows:</p>
+    <section class="main_div display_flex align_center justify_content row">
+        <div class="window_div width_fit height_fit">
+            <div class="title_bar height_fit display_flex align_center justify_bet">
+                <div class="title_bar_text">Custom Shows</div>
+                <div class="title_bar_controls">
+                    <button type="button" aria-label="Maximize" class="common_btn ques_btn py_mx display_inline_flex justify_content align_center" id="question_div" name="question_div">&#63;</button>
+                    <button type="button" aria-label="Close" class="common_btn close_one_btn py_mx display_inline_flex justify_content align_center" id="close_div" name="close_div">&#10005;</button>
+                </div>
+            </div>
+            <div class="window_body">
+                <div class="upper_content width_fit font_siz width_fit justify_bet">
+                    <div class="upper_left font_fam">
+                        <p class="para">C<span class="underline">u</span class="underline">stom shows:</p>
 						<div class="white_box"></div>
 					</div>
-					<div class="btn_group display_flex">
-						<button class="btn focused font_fam font_siz" id="new_btn" name="new_btn"><span class="underline">N</span>ew...</button>
-						<button class="btn font_fam font_siz" id="new_btn" name="new_btn" disabled><span class="underline">E</span>dit...</button>
-						<button class="btn font_fam font_siz" id="new_btn" name="new_btn" disabled><span class="underline">R</span>emove </button>
-						<button class="btn font_fam font_siz" id="new_btn" name="new_btn" disabled>Cop<span class="underline">y</span>...</button>
-					</div>
-				</div>
-				<div class="lower_content">
-					<div class="btn_lower_group">
-						<button class="btn close_btn font_fam font_siz" id="new_btn" name="new_btn"><span class="underline">C</span>lose</button>
-						<button class="btn show_btn font_fam font_siz" id="new_btn" name="new_btn" disabled><span class="underline">S</span>how...</button>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
+					<div class="btn_group display_flex align_center justify_around row">
+						<button type="button" class="btn focused font_fam font_siz py_mx display_flex align_center justify_content close_btn" id="new_btn" name="new_btn"><span class="underline">N</span>ew<span class="san">...</span></button>
+                            <button type="button" class="btn font_fam font_siz py_mx display_flex align_center justify_content" id="edit_btn" name="edit_btn" disabled><span class="underline">E</span>dit<span class="san">...</span></button>
+                            <button type="button" class="btn font_fam font_siz py_mx display_flex align_center justify_content" id="remove_btn" name="remove_btn" disabled><span class="underline">R</span>emove </button>
+                            <button type="button" class="btn font_fam font_siz py_mx display_flex align_center justify_content" id="copy_btn" name="copy_btn" disabled>Cop<span class="underline">y</span></button>
+                    </div>
+                </div>
+                <div class="lower_content">
+                    <div class="btn_lower_group display_flex">
+                        <button type="button" class="btn close_btn font_fam font_siz py_mx display_flex align_center justify_content" id="close_btn" name="close_btn"><span class="underline">C</span>lose</button>
+                        <button type="button" class="btn show_btn font_fam font_siz py_mx display_flex align_center justify_content" id="show_btn" name="show_btn" disabled><span class="underline">S</span>how</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
+
 </html>

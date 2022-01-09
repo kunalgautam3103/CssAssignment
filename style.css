@@ -1,168 +1,180 @@
 .main_div {
-  width: 90vw;
-  height: 80vh;
+    width: 90vw;
+    height: 80vh;
 }
 
 .font_siz {
-  font-size: 1.3rem;
+    font-size: 1.2rem;
+    letter-spacing: -1px;
+    font-stretch: ultra-expanded;
+}
+
+.text_center {
+    text-align: center;
+}
+
+.width_fit {
+    width: fit-content;
+}
+
+.height_fit {
+    height: fit-content;
+}
+
+.py_mx {
+    padding: 2px 1px;
+    margin: 1px;
 }
 
 .window_div {
-  height: fit-content;
-  width: fit-content;
-  background: #ece9d8;
-  box-shadow: inset -1px -1px #00138c, inset 1px 1px #0831d9,
-    inset -2px -2px #001ea0, inset 2px 2px #166aee, inset -3px -3px #003bda,
-    inset 3px 3px #0855dd;
-  border-top-left-radius: 8px;
-  border-top-right-radius: 8px;
-  padding: 0 0 3px;
+    background: #ece9d8;
+    box-shadow: inset -1px -1px #00138c, inset 1px 1px #0831d9, inset -2px -2px #001ea0, inset 2px 2px #166aee, inset -3px -3px #003bda, inset 3px 3px #0855dd;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    padding: 0 0 3px;
 }
 
 .display_flex {
-  display: flex;
-  align-items: center;
-  flex-direction: row;
-  justify-content: center;
+    display: flex;
+}
+
+.display_inline_flex {
+    display: inline-flex;
+}
+
+.row {
+    flex-direction: row;
+}
+
+.align_center {
+    align-items: center;
+}
+
+.justify_content {
+    justify-content: center;
+}
+
+.justify_bet {
+    justify-content: space-between;
+}
+
+.justify_around {
+    justify-content: space-around
 }
 
 .title_bar {
-  font-family: Trebuchet MS;
-  background: linear-gradient(
-    180deg,
-    #0997ff,
-    #0053ee 8%,
-    #0050ee 40%,
-    #06f 88%,
-    #06f 93%,
-    #005bff 95%,
-    #003dd7 96%,
-    #003dd7
-  );
-  padding: 3px 5px 3px 3px;
-  border-top: 1px solid #0831d9;
-  border-left: 1px solid #0831d9;
-  border-right: 1px solid #001ea0;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-  text-shadow: 1px 1px #0f1089;
-  height: 5vh;
-  display: flex;
-  justify-content: space-between;
-  padding: 0 10px;
-  align-items: center;
+    font-family: Trebuchet MS;
+    background: linear-gradient( 180deg, #0997ff, #0053ee 17%, #0050ee 40%, #06f 88%, #06f 93%, #005bff 95%, #003dd7 96%, #003dd7);
+    padding: 3px 5px 3px 3px;
+    border-top: 1px solid #0831d9;
+    border-left: 1px solid #0831d9;
+    border-right: 1px solid #001ea0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-shadow: 1px 1px #0f1089;
+    padding: 0 10px;
 }
 
 .title_bar_text {
-  color: white;
+    color: rgb(255, 255, 255);
 }
 
-.title-bar-controls {
-  display: inline;
+.title_bar_controls {
+    display: inline;
 }
+
 .common_btn {
-  border-radius: 0.3rem;
-  padding: 0 6px 2px 6px;
-  width: 1.6rem;
-  height: 1.6rem;
-  font-weight: 200;
-  font-size: 1em; 
-  cursor: pointer;
-  border: 1px solid #ffff;
-  background-image: linear-gradient(-180deg, #ff5c33 0%, #ff471a 100%);
-  box-shadow: 1 -0.25rem 1.5rem #ffffff inset, 0 0.25rem 0.5rem 0 #ff5c33 inset;
-  color: #ffff;
+    border-radius: 0.3rem;
+    padding: 0 6px 2px 6px;
+    width: 1.3rem;
+    height: 1.3rem;
+    font-weight: 100;
+    font-size: 1em;
+    cursor: pointer;
+    border: 1px solid #ffff;
+    color: #ffff;
+    border-radius: 0.2rem;
 }
+
 .close_one_btn {
-  background-image: linear-gradient(-180deg, #ff5c33 0%, #ff471a 100%);
-  box-shadow: 1 -0.25rem 1.5rem #ffffff inset, 0 0.25rem 0.5rem 0 #ff5c33 inset;
+    background-image: linear-gradient(-180deg, #ff5c33 0%, #ff471a 100%);
+    box-shadow: 1 -0.25rem 1.5rem #ffffff inset, 0 0.25rem 0.5rem 0 #ff5c33 inset;
 }
 
 .ques_btn {
-  background-image: linear-gradient(-180deg, #ffffff 0%, #0052cc 100%);
-  box-shadow: 0 -0.25rem 1.5rem #0052cc inset,
-    0rem 0.25rem 0.5rem 0 #ffffff inset;
-  border-radius: 0.3rem;
-  padding-top: 2px;
+    background-image: linear-gradient(-180deg, #ffffff 0%, #0052cc 100%);
+    box-shadow: 0 -0.25rem 1.5rem #0052cc inset, 0rem 0.25rem 0.5rem 0 #ffffff inset;
+    padding-top: 2.5px;
 }
 
 .para {
-  margin: 6px 2px 6px 0;
-  
+    margin: 6px 2px 6px 0;
 }
+
 .font_fam {
     font-family: "VT323", monospace;
 }
+
 .upper_content {
-  font-weight: 100;
-  padding: 8px;
-  display: flex;
-  width: fit-content;
-  justify-content: space-between;
-  padding-top: 0;
+    font-weight: 100;
+    padding: 8px;
+    display: flex;
+    padding-top: 0;
 }
 
 .btn {
-  box-sizing: border-box;
-  border: 1px solid #003c74;
-  background: linear-gradient(180deg, #fff, #ecebe5 86%, #d8d0c4);
-  box-shadow: none;
-  border-radius: 3px;
-  min-height: 23px;
-  padding: 0 12px;
-  margin: 3px;
-  width: 6rem;
+    box-sizing: border-box;
+    background: linear-gradient(180deg, #fff, #ecebe5 86%, #d8d0c4);
+    border-radius: 3px;
+    min-height: 23px;
+    width: 4.6rem;
+    min-width: 60px;
 }
 
 .focused {
-  box-shadow: inset -1px 1px #cee7ff, inset 1px 2px #98b8ea,
-    inset -2px 2px #bcd4f6, inset 1px -1px #89ade4, inset 2px -2px #89ade4;
-  outline: 1px dotted #000;
-  outline-offset: -4px;
+    box-shadow: inset -1px 1px #cee7ff, inset 1px 2px #98b8ea, inset -2px 2px #bcd4f6, inset 1px -1px #89ade4, inset 2px -2px #89ade4;
+    outline: 1px dotted #000;
+    outline-offset: -4px;
 }
 
 .white_box {
-  width: 20vw;
-  height: 25vh;
-  background: white;
-  border: 1px solid rgb(2, 2, 141);
+    width: 20vw;
+    height: 20vh;
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(79, 79, 185);
 }
 
 .btn_group {
-  flex-direction: column;
-  padding: 3px;
-  justify-content: space-around;
-  margin-left: 7px;
+    flex-direction: column;
+    padding: 3px;
+    margin-left: 7px;
 }
 
 .underline {
-  text-decoration: underline;
+    text-decoration: underline;
 }
 
 .btn_lower_group {
-  float: right;
-  position: relative;
-  right: 0.65rem;
-  margin: 10px 0;
+    float: right;
+    position: relative;
+    right: 0.65rem;
+    margin: 10px 0;
 }
 
 .upper_left {
-  padding-left: 4px;
+    padding-left: 4px;
 }
 
 .show_btn {
-  margin-left: 8px;
+    margin-left: 8px;
 }
 
 .close_btn {
-  border: 2px solid rgb(0, 0, 0);
+    border: 1px solid #003c74;
 }
 
 @media screen and (min-width:2200px) {
-  .font_siz {
-    font-size: 1.8rem;
-  }
-  .title_bar_text {
-    font-size: 1.5rem;
-  }
+    .title_bar_text {
+        font-size: 1.5rem;
+    }
 }
