@@ -5,8 +5,7 @@
 
 .font_siz {
     font-size: 1.2rem;
-    letter-spacing: -1px;
-    font-stretch: ultra-expanded;
+    letter-spacing: 0;
 }
 
 .text_center {
@@ -22,7 +21,6 @@
 }
 
 .py_mx {
-    padding: 2px 1px;
     margin: 1px;
 }
 
@@ -48,6 +46,10 @@
 
 .align_center {
     align-items: center;
+}
+
+.align_start {
+    align-items: flex-start;
 }
 
 .justify_content {
@@ -79,12 +81,7 @@
     color: rgb(255, 255, 255);
 }
 
-.title_bar_controls {
-    display: inline;
-}
-
 .common_btn {
-    border-radius: 0.3rem;
     padding: 0 6px 2px 6px;
     width: 1.3rem;
     height: 1.3rem;
@@ -104,7 +101,7 @@
 .ques_btn {
     background-image: linear-gradient(-180deg, #ffffff 0%, #0052cc 100%);
     box-shadow: 0 -0.25rem 1.5rem #0052cc inset, 0rem 0.25rem 0.5rem 0 #ffffff inset;
-    padding-top: 2.5px;
+    padding-top: 2.7px;
 }
 
 .para {
@@ -115,17 +112,19 @@
     font-family: "VT323", monospace;
 }
 
+.pad_b {
+    padding-bottom: 3.2px;
+}
 .upper_content {
     font-weight: 100;
     padding: 8px;
-    display: flex;
     padding-top: 0;
 }
 
 .btn {
     box-sizing: border-box;
     background: linear-gradient(180deg, #fff, #ecebe5 86%, #d8d0c4);
-    border-radius: 3px;
+    border-radius: 4px;
     min-height: 23px;
     width: 4.6rem;
     min-width: 60px;
